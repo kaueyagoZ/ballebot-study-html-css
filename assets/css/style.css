@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;
+}
+
+body {
+    background: linear-gradient(38deg, #2F2325 0%, #8E5D52 100%);
+    font-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 1.5rem 6rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo a img {
+    width: 62px;
+    height: 62px;
+    flex-shrink: 0;
+}
+
+.nav-list ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item-link {
+    text-decoration: none;
+    color: #FFF2E7;
+    font-family: 'Sarala';
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-item-link:hover {
+    color: #f7e0cd;
+    opacity: 0.9;
+}
+
+.body-start {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.body-start-text h1 {
+    color: #FFF2E7;
+    font-family: 'Righteous';
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.body-start-text p {
+    color: #ECD6C4;
+    font-family: 'Sarala';
+    font-size: 24px;
+    margin-bottom: 34px;
+}
+
+.body-start-text button {
+    width: 185px;
+    height: 67px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: #ECD6C4;
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.body-start-text button:hover {
+    background-color: #e0bda0;
+}
+
+.body-start-text button a {
+    text-decoration: none;
+    color: #2F2325;
+    font-size: 24px;
+    font-family: 'Sarala';
+}
+
+.body-start-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.4px solid #FFF2E7;
+}
+
+.body-end-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 28px;
+    padding-bottom: 48px;
+}
+
+.body-end-text h4 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    color: #FFF2E7;
+    font-size: 24px;
+    font-family: 'Righteous';
+}
+
+.body-end-text p {
+    color: #ECD6C4;
+    font-size: 18px;
+    font-family: 'Sarala';
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+footer img {
+    width: 495px;
+    height: 99px;
+}
